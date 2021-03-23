@@ -1,0 +1,111 @@
+/** {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color:lightgray;
+  width: 700px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input[type=text], input[type=number], input[type=password], input[type=email] {
+  padding: 10px;
+  margin: 5px 0 18px 0;
+}*/
+table {
+  border: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:darkgray;
+  color: black;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+td {
+  font-family: Verdana;
+}
+
+tr:hover {
+  background-color: antiquewhite;
+}
+/**/
+
+
+form {
+  border: medium;
+}
+
+button {
+  text-align: center;
+  width:490px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  background-color:darkgrey;
+  width: 600px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+
+#content {
+  padding: 8%;
+}
+
+
+
+#home {
+  background-color: #DCE6F0;
+}
+
+
+
+#btnwidth {
+  width: 150px;
+}
+
+
+
+.container-fluid {
+  padding: 3%;
+}
+
+label {
+  font-size: 18px;
+}
+
+
+#services {
+  padding: 8%;
+  text-align: center;
+  background-color: #DCE6F0;
+}
+
+
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+}

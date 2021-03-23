@@ -1,0 +1,38 @@
+[
+  {
+    "prodId": 201,
+    "prodName": "Laptop",
+    "prodPrice": 40000,
+    "prodDescrip": "HP",
+    "prodImage": "../assets/lapi.jpg"
+  },
+  {
+    "prodId": 202,
+    "prodName": "TV",
+    "prodPrice": 80000,
+    "prodDescrip": "Samsung",
+    "prodImage": "../assets/tv.jpg"
+  },
+  {
+    "prodId": 203,
+    "prodName": "Earphones",
+    "prodPrice": 2000,
+    "prodDescrip": "Boat",
+    "prodImage": "../assets/earphones.jpg"
+  },
+  {
+    "prodId": 204,
+    "prodName": "Fridge",
+    "prodPrice": 60000,
+    "prodDescrip": "Whirlpool",
+    "prodImage": "../assets/fridge.jpg"
+  },
+  {
+    "prodId": 205,
+    "prodName": "Book",
+    "prodPrice": 800,
+    "prodDescrip": "Harry Potter",
+    "prodImage": "../assets/book.jpg"
+  }
+
+]

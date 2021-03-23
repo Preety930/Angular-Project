@@ -1,0 +1,11 @@
+nav {
+  color: blue;
+  font-size: 24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: lavender;
+  border: 2px solid black;
+}
+
+p {
+  font-size: 22px;
+}

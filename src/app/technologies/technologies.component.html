@@ -1,0 +1,63 @@
+<app-header></app-header>
+<section id="team" class="team">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Technologies</h2>
+      <p>“Before software can be reusable it first has to be usable.” – Ralph Johnson</p>
+    </div>
+
+    <div class="row">
+
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
+        <div class="member">
+          <div class="pic"><img src="../assets/java.jpg" class="img-fluid" alt="" width="300" height="300"></div>
+          <div class="member-info">
+            <h4>Java</h4>
+            <!--<span>Chief Executive Officer</span>-->
+            <div class="social">
+              <a [routerLink]='["java"]' routerLinkActive='active' class="btn btn-info" role="button">Course Details</a>
+              <!--<a href=""><i class="icofont-linkedin"></i></a>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="member">
+          <div class="pic"><img src="../assets/dotnet.jpg" class="img-fluid" alt="" width="300" height="300"></div>
+          <div class="member-info">
+            <h4>.Net</h4>
+            <!--<span>Product Manager</span>-->
+            <div class="social">
+              <!--<a href=""><i class="icofont-linkedin"></i></a>-->
+              <a [routerLink]='["dotnet"]' routerLinkActive='active' class="btn btn-info" role="button">Course Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="member">
+          <div class="pic"><img src="../assets/web1.png" class="img-fluid" alt="" width="300" height="300"></div>
+          <div class="member-info">
+            <h4>Web</h4>
+            <!--<span>CTO</span>-->
+            <div class="social">
+              <!--<a href=""><i class="icofont-linkedin"></i></a>-->
+              <a [routerLink]='["web"]' routerLinkActive='active' class="btn btn-info" role="button">Course Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+</section>
+<router-outlet></router-outlet>
+<br />
+<br />
+<app-footer></app-footer>

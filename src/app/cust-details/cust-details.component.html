@@ -1,0 +1,49 @@
+<h1>Customer Details</h1>
+<hr />
+<div class="form-group">
+  <!--<label for="search-text">Search : </label>-->
+  <input type="text" class="form-control" id="search-text" aria-describedby="search-text"
+         [(ngModel)]="searchText" placeholder="Search..."
+         autofocus>
+
+  <label>Sort by: </label>
+  <select [(ngModel)]='SortbyParam' style="height:30px">
+    <option value="id">Customer Id</option>
+    <option value="name">Customer Name</option>
+    <option value="email">Customer Email</option>
+    <option value="contactNo">Customer ContactNo</option>
+  </select>
+</div>
+<br />
+<table *ngIf='customers.length>0'>
+  <tr>
+    <th>Customer Id</th>
+    <th>Customer Name</th>
+    <th>Customer Email</th>
+    <th>Customer ContactNo</th>
+    <th>Customer Image</th>
+  </tr>
+  <tr appMyTheme *ngFor="let customer of customers | filter: {id:searchText,name: searchText,email : searchText, contactNo:searchText}| sort:SortbyParam">
+
+    <td>
+      {{customer.id}}
+    </td>
+    <td>
+      {{customer.name}}
+    </td>
+    <td>
+      {{customer.email}}
+    </td>
+    <td>
+      {{customer.contactNo}}
+    </td>
+    <td>
+      <img [src]='customer.custImage' />
+    </td>
+
+  </tr>
+</table>
+
+
+
+

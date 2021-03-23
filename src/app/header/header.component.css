@@ -1,0 +1,29 @@
+.navbar{
+    font-size:20px;
+    text-align:right;
+}
+.navbar a:hover{
+    background-color:darkgray;
+}
+.nav navbar-nav{
+    text-align:right;
+}
+.fa {
+  
+  font-size: 35px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.label{
+    font-size:15px;
+}
+.form-control{
+    margin:5px;
+    font-size:15px;
+}
+button {
+  margin:5px 2px 2px 15px;
+  font-size: 15px;
+}

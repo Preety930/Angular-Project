@@ -1,0 +1,49 @@
+<h1>Product Details</h1>
+<hr />
+<div class="form-group">
+  <!--<label for="search-text">Search : </label>-->
+  <input type="text" class="form-control" id="search-text" aria-describedby="search-text"
+         [(ngModel)]="searchText" placeholder="Search..."
+         autofocus>
+
+  <label>Sort by: </label>
+
+  <select [(ngModel)]='SortbyParam' style="height:30px">
+    <option value="prodId">Product Id</option>
+    <option value="prodName">Product Name</option>
+    <option value="prodPrice">Product Price</option>
+    <option value="prodDescrip">Product Description</option>
+  </select>
+
+</div>
+<br />
+<table *ngIf='products.length>0'>
+  <tr>
+    <th>Product Id</th>
+    <th>Product Name</th>
+    <th>Product Price</th>
+    <th>Product Description</th>
+    <th>Product Image</th>
+  </tr>
+  <tr appMyTheme *ngFor="let product of products | filter: {prodId:searchText,prodName: searchText,prodPrice : searchText, prodDescrip:searchText}| sort:SortbyParam ">
+
+    <td>
+      {{product.prodId}}
+    </td>
+    <td>
+      {{product.prodName}}
+    </td>
+    <td>
+      {{product.prodPrice}}
+    </td>
+    <td>
+      {{product.prodDescrip}}
+    </td>
+    <td>
+      <img [src]='product.prodImage' />
+    </td>
+
+  </tr>
+</table>
+
+

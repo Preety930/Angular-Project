@@ -1,0 +1,38 @@
+[
+  {
+    "id": 101,
+    "name": "Preety",
+    "email": "pp@gmail.com",
+    "contactNo": 7037890845,
+    "custImage": "../assets/face1.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Akshay",
+    "email": "akshay@gmail.com",
+    "contactNo": 8976890845,
+    "custImage": "../assets/face2.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Shraddha",
+    "email": "shraddha@gmail.com",
+    "contactNo": 7037890845,
+    "custImage": "../assets/face3.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Rahul",
+    "email": "rahul@gmail.com",
+    "contactNo": 9878970845,
+    "custImage": "../assets/face4.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Himani",
+    "email": "him@gmail.com",
+    "contactNo": 7567897845,
+    "custImage": "../assets/face5.jpg"
+  }
+  
+]

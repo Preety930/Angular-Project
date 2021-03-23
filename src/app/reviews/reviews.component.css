@@ -1,0 +1,83 @@
+.table1 {
+  border: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:gray;
+  color: black;
+  font-size:19px;
+}
+
+.table1 th,  .table1 td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 80px;
+}
+
+h1 {
+  color: brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+td {
+  font-family: Verdana;
+}
+
+.table1 tr:hover {
+  background-color: antiquewhite;
+}
+
+.form-group {
+  text-align: center;
+}
+
+/*input[type=text] {
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: skyblue;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}*/
+
+label {
+  font-size: 25px;
+  border-radius: 4px;
+  padding: 12px 20px 12px 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="text"],
+select.form-control {
+  
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color:lightgray;
+  background-position: 20px 10px;
+  background-repeat: no-repeat;
+  padding: 8px 8px 8px 10px;
+  width:400px;
+  border-radius:10px;
+  
+}
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}

@@ -1,0 +1,34 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <a class="navbar-brand">
+      <i class="fa fa-university" aria-hidden="true"></i>
+      <!--<img src="../assets/logo.jpg" alt="logo" style="width:40px; height:35px; border-radius:4px;">-->
+    </a>
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a routerLink='/home' routerLinkActive='active'>{{'Home' | translate}}</a></li>
+      <li><a routerLink='/reviews' routerLinkActive='active'>{{'Reviews' | translate}}</a></li>
+      <li><a routerLink='/technologies' routerLinkActive='active'>{{'Technologies' | translate}}</a></li>
+      <li><a routerLink='/form' routerLinkActive='active'>{{'TD_Registration Form' | translate}}</a></li>
+      <li><a routerLink='/modeldrivenform' routerLinkActive='active'>{{'MD_Registration Form' | translate}}</a></li>
+      <li>
+
+        <select #locale (change)='changeLocale(locale.value)' class="form-control">
+          <option value="" hidden required>Select Language</option>
+          <option value='en'>
+            English
+          </option>
+          <option value='fr'>français</option>
+          <option value='jp'>日本語</option>
+          <option value='hi'>हिन्दी</option>
+        </select>
+        </li>
+      <li>
+
+        <button class="btn btn-danger"   type="button" (click)='logout()'>Logout</button>
+
+      </li>
+     
+    </ul>
+  </div>
+</nav>
